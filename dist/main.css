@@ -28,20 +28,19 @@
   width: 100px;
 }
 
-
 @media screen and (max-width: 480px) {
- .size1 {
-  height: 100px;
-  width: 100px;
-}
+  .size1 {
+    height: 100px;
+    width: 100px;
+  }
 
-.size2 {
-  height: 50px;
-  width: 50px;
-}
+  .size2 {
+    height: 80px;
+    width: 80px;
+  }
 
-.size3 {
-  height: 25px;
-  width: 25px;
-}
+  .size3 {
+    height: 60px;
+    width: 60px;
+  }
 }
