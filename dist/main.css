@@ -29,7 +29,7 @@
 }
 
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
  .size1 {
   height: 100px;
   width: 100px;
