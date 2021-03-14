@@ -11,9 +11,9 @@ var gameConfig = {
     {
       levelName: "Level 2",
       gridSize: 4,
-      cellLitDuration: 900,
+      cellLitDuration: 700,
       levelDuration: 5000,
-      levelPassingScore: 1,
+      levelPassingScore: 4,
       gridClass: "size2",
     },
     {
@@ -21,7 +21,7 @@ var gameConfig = {
       gridSize: 5,
       cellLitDuration: 500,
       levelDuration: 5000,
-      levelPassingScore: 3,
+      levelPassingScore: 4,
       gridClass: "size3",
     },
   ],
