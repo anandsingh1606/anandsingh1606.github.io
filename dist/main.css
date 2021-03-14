@@ -1,0 +1,29 @@
+#grid-root {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  background: #3ec9ca;
+  margin: 4px;
+  cursor: pointer;
+}
+.line-break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.size1 {
+  height: 200px;
+  width: 200px;
+}
+
+.size2 {
+  height: 150px;
+  width: 150px;
+}
+
+.size3 {
+  height: 100px;
+  width: 100px;
+}
