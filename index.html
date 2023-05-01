@@ -24,11 +24,20 @@
 <!DOCTYPE html>
 <html>
 <body>
+<script>
+function myFunction() {
+  if(window.opener) {
+  window.opener.focus();
+}
+}
+</script>
 
 <h1>The iframe element</h1>
 
 <iframe width="100%" height="500px" allow="camera *;microphone *;geolocation *;" src="https://india-vcip-customer-demo.hyperverge.co/waiting-room/?params=NqI4NKm" title="W3Schools Free Online Web Tutorials">
 </iframe>
+
+<button onclick="myFunction()">Close Tab</button>
 
 </body>
 </html>
